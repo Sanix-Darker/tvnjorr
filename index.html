@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TvNjor</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/BMSVieira/moovie.js@latest/css/moovie.min.css'>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body style="background-color:#10131a;color: white;">
+  <div class="head">
+    <h3>TvNjor</h3>
+    <p>click to play, it's free to watch of course...</p>
+  </div>      
+
+  <div class='boxtv'>
+    <h5 id="ch_title"></h5>
+    <span id="load_it">Loading, please wait...</span>
+    <video id="tvnjor">
+      Your browser does not support the video tag.
+    </video>
+    <input type="text" id="ch_input" placeholder="Search for a channel name here... (2000 available french/english)"/>
+    <div class="box_ch">
+      <ul id="channel_list">
+        <li>loading channels...</li>
+      </ul>
+    </div>
+    <br>
+    <center>
+      <small>
+        Made with laziness by <a href="https://twitter.com/sanixdarker">d4rk3r</a>.
+      </small>
+    </center>
+  </div>
+
+  <script src='https://cdn.jsdelivr.net/gh/BMSVieira/moovie.js/js/moovie.js'></script>
+  <script src='https://cdn.jsdelivr.net/hls.js/latest/hls.js'></script>
+  <script src="./assets/script.js"></script>
+</body>
+</html>

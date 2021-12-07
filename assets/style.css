@@ -1,0 +1,41 @@
+.lk{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.boxtv{
+    max-width: 800px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+p{
+    margin-bottom: 30px;
+    font-size: 10pt;
+    color: white;
+    font-family: Montserrat;
+}
+
+.head{
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align:center;
+}
+
+#ch_input{
+    width: 100%;
+}
+
+.box_ch{
+    max-height: 200px;
+    font-size: 13px;
+    overflow: auto;
+}
+
+#load_it{
+    float: right;
+}
