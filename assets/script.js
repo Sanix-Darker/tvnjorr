@@ -40,7 +40,7 @@ input.onkeyup = function () {
     }
 }
 
-fetch('/channels/fra.json')
+fetch('/channels/bin.json')
 .then(response => {
     document.getElementById('channel_list').innerHTML = ""
     if (!response.ok) {
