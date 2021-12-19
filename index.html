@@ -14,26 +14,30 @@
     <p>click to play, it's free to watch of course...</p>
   </div>      
 
-  <div class='boxtv'>
-    <h5 id="ch_title"></h5>
-    <span id="load_it">Loading, please wait...</span>
-    <video id="tvnjor">
-      Your browser does not support the video tag.
-    </video>
-    <input type="text" id="ch_input" placeholder="Search for a channel name here... (2000 available french/english)"/>
-    <div class="box_ch">
-      <ul id="channel_list">
-        <li>loading channels...</li>
-      </ul>
+  <div class='boxtv row'>
+    <div class="col-md-9">
+      <h5 id="ch_title"></h5>
+      <span id="load_it">Loading, please wait...</span>
+      <video id="tvnjor">
+        Your browser does not support the video tag.
+      </video>
     </div>
-    <br>
-    <center>
-      <small>
-        Made with laziness by <a href="https://twitter.com/sanixdarker">d4rk3r</a>.
-      </small>
-    </center>
+    <div class="col-md-3">
+      <br>
+      <input type="text" id="ch_input" placeholder="Search for a channel name here... (2000 available french/english)"/>
+      <div class="box_ch">
+        <ul id="channel_list">
+          <li>loading channels...</li>
+        </ul>
+      </div>
+    </div>
   </div>
-
+  <br>
+  <center>
+    <small>
+      Made with laziness by <a href="https://twitter.com/sanixdarker">d4rk3r</a>.
+    </small>
+  </center>
   <script src='https://cdn.jsdelivr.net/gh/BMSVieira/moovie.js/js/moovie.js'></script>
   <script src='https://cdn.jsdelivr.net/hls.js/latest/hls.js'></script>
   <script src="./assets/script.js"></script>
