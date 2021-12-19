@@ -30,3 +30,4 @@ bash start.sh
 ## Screenshot
 
 <img src="./scr.png">
+Note : Am not responsible of the bad use of this project, it was made for viwers only !
